@@ -1,0 +1,47 @@
+# Ignore virtual environments
+.venv/
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest / coverage
+htmlcov/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Environments and dependencies
+.env
+.env.*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and local settings
+*.log
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# MyPy, Pylint, etc.
+.mypy_cache/
+.pytest_cache/
