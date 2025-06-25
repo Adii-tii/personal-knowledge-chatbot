@@ -12,7 +12,7 @@ store = FaissVectorStore(dim=384)
 store.load()
 
 # Initialize QA engine with embedder and vector store
-qa = QAEngine(embedder, store, "AIzaSyCQOaC4E7HPWq_c3uuJmFZzcaF_FE6O5vU")
+qa = QAEngine(embedder, store, "API_KEY_HERE")
 
 # Now just ask questions!
 question = input("Type your query: ")
